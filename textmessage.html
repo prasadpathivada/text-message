@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="textmessage.css">
+</head>
+<body>
+    <table class="center"><tr><td>
+    
+
+    
+    <h1>TEXT YOUR MESSAGE</h1>
+    <h3>ENTER YOUR MESSAGE</h3>
+    <input id="ts" type="text">
+    <button onclick="myFunction()">Submit</button> 
+  <p id="msg"></p> 
+  <p><pre>"life is not finding about yourself,
+    Life is about creating yourself"</pre></p>
+
+</td></tr></table>
+  <script> 
+  function myFunction() { 
+     let text = document.getElementById("ts").value; 
+     document.getElementById("msg").innerHTML=text;
+ }
+
+</script>
+</body>
+</html>
